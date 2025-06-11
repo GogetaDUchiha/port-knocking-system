@@ -1,0 +1,55 @@
+[2025-06-01 14:21:57] 👂 Listening for knocks on UDP port 10001
+[2025-06-01 14:21:57] 👂 Listening for knocks on UDP port 10002
+[2025-06-01 14:21:57] 👂 Listening for knocks on UDP port 10003
+[2025-06-01 14:21:57] 🌐 Listening on TCP target port 2121 for client connections.
+[2025-06-01 14:21:57] ✅ Server started. Knock sequence: [10001, 10002, 10003] ➡️ Target port: 2121
+[2025-06-01 14:22:02] 🔔 Received correct knock #1 (10001) from 127.0.0.1
+[2025-06-01 14:22:02] 🔔 Received correct knock #2 (10002) from 127.0.0.1
+[2025-06-01 14:22:02] 🔔 Received correct knock #3 (10003) from 127.0.0.1
+[2025-06-01 14:22:02] ✅ Authentication successful for 127.0.0.1. Target port 2121 opened for this IP for 60 seconds.
+[2025-06-01 14:22:04] Starting FTP session for 127.0.0.1
+[2025-06-01 14:22:04] Received FTP command from 127.0.0.1: 'LIST'
+[2025-06-01 14:22:04] Sent file list to 127.0.0.1 with END_OF_LIST marker.
+[2025-06-01 14:22:34] Client 127.0.0.1 timed out waiting for FTP command or during file transfer. Disconnecting.
+[2025-06-01 14:22:34] Closing FTP connection for 127.0.0.1.
+[2025-06-01 14:41:15] Connection denied from 127.0.0.1 on target port (not authenticated or authentication expired).
+[2025-06-01 14:41:15] Failed attempt 1 for IP: 127.0.0.1
+[2025-06-01 14:41:50] Expired knock sequence for 127.0.0.1. Clearing status.
+[2025-06-01 14:41:50] Failed attempt 2 for IP: 127.0.0.1
+[2025-06-01 14:41:49] Incorrect knock order from 127.0.0.1. Expected port at position 0, but got 10003 at position 2.
+[2025-06-01 14:41:50] Failed attempt 3 for IP: 127.0.0.1
+[2025-06-01 14:41:50] Incorrect knock order from 127.0.0.1. Expected port at position 0, but got 10002 at position 1.
+[2025-06-01 14:41:50] Failed attempt 4 for IP: 127.0.0.1
+[2025-06-01 14:42:00] Expired knock sequence for 127.0.0.1. Clearing status.
+[2025-06-01 14:42:00] Failed attempt 5 for IP: 127.0.0.1
+[2025-06-01 14:55:45] Server shutting down. Attempting to close sockets...
+[2025-06-01 14:55:45] Server stopped.
+[2025-06-02 05:45:35] 👂 Listening for knocks on UDP port 10001
+[2025-06-02 05:45:35] 👂 Listening for knocks on UDP port 10002
+[2025-06-02 05:45:35] 👂 Listening for knocks on UDP port 10003
+[2025-06-02 05:45:35] 🌐 Listening on TCP target port 2121 for client connections.
+[2025-06-02 05:45:35] ✅ Server started. Knock sequence: [10001, 10002, 10003] ➡️ Target port: 2121
+[2025-06-02 05:45:50] 🔔 Received correct knock #1 (10001) from 127.0.0.1
+[2025-06-02 05:45:50] 🔔 Received correct knock #2 (10002) from 127.0.0.1
+[2025-06-02 05:45:50] 🔔 Received correct knock #3 (10003) from 127.0.0.1
+[2025-06-02 05:45:50] ✅ Authentication successful for 127.0.0.1. Target port 2121 opened for this IP for 60 seconds.
+[2025-06-02 05:45:52] Starting FTP session for 127.0.0.1
+[2025-06-02 05:45:52] Received FTP command from 127.0.0.1: 'LIST'
+[2025-06-02 05:45:52] Sent file list to 127.0.0.1 with END_OF_LIST marker.
+[2025-06-02 05:46:07] Client 127.0.0.1 disconnected from FTP session.
+[2025-06-02 05:46:07] Closing FTP connection for 127.0.0.1.
+[2025-06-02 08:56:38] Server shutting down. Attempting to close sockets...
+[2025-06-02 08:56:38] Server stopped.
+[2025-06-03 02:31:23] 👂 Listening for knocks on UDP port 10001
+[2025-06-03 02:31:23] 👂 Listening for knocks on UDP port 10002
+[2025-06-03 02:31:23] 👂 Listening for knocks on UDP port 10003
+[2025-06-03 02:31:23] 🌐 Listening on TCP target port 2121 for client connections.
+[2025-06-03 02:31:23] ✅ Server started. Knock sequence: [10001, 10002, 10003] ➡️ Target port: 2121
+[2025-06-03 03:42:55] Server shutting down. Attempting to close sockets...
+[2025-06-03 03:42:55] 🛑 Suspicious or malformed packet from 127.0.0.1 on port 10001.
+[2025-06-03 03:42:55] Failed attempt 1 for IP: 127.0.0.1
+[2025-06-03 03:42:55] UDP listener on port 10001 stopped.
+[2025-06-03 03:42:55] ⚠️ Rate limit exceeded for IP: 127.0.0.1 on port 10003. Ignoring.
+[2025-06-03 03:42:55] Failed attempt 2 for IP: 127.0.0.1
+[2025-06-03 03:42:55] UDP listener on port 10003 stopped.
+[2025-06-03 03:42:55] Server stopped.
